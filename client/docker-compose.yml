@@ -1,0 +1,6 @@
+services:
+  hystrix:
+    image: yinguowei/hystrix-dashboard
+    container_name: hystrix-dashboard
+    ports:
+      - "9002:8080"
